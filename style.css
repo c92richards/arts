@@ -1,0 +1,453 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, rgba(113, 40, 27, 0.54), rgba(98, 75, 195, 0.4));
+	overflow-y: hidden;
+	
+}
+
+
+
+
+#container{
+	background-color: burlywood;
+	width: 70%;
+	height: 550px;
+	margin: 60px 200px;
+}
+#leftT_shelf{
+	height: 9px;
+	width: 200px;
+	background-color: white;
+	float: left;
+	left: 0;
+	margin-top: 200px;
+}
+#first_Book{
+	height: 20px;
+	width: 95px;
+	background-color: darkgreen;
+	transform: rotate(90deg);
+	margin-top: -58px;
+	margin-left: 30px;
+}
+#first_slant{
+	height: 8px;
+	width: 55px;
+	background-color: white;
+	transform: rotate(98deg);
+	margin-left: 48px; 
+	margin-top: -20px;
+}
+#second_Book{
+	height: 13px;
+	width: 72px;
+	background-color: red;
+	transform: rotate(90deg);
+	margin-top: 7px;
+	margin-left: 58px;
+}
+
+#second_slant{
+	height: 5px;
+	width: 55px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -10px;
+	margin-left: 66px;
+}
+#third_Book{
+	height: 20px;
+	width: 95px;
+	background-color: darkgreen;
+	transform: rotate(-120deg);
+	margin-top: -21px;
+	margin-left: 79px;
+}
+
+#thirdbook_logo{
+	height: 13px;
+	width: 10px;
+	background-color: white;
+	transform: rotate(-120deg);
+	margin-top: -47px;
+	margin-left: 104px;
+}
+
+#fourth_Book{
+	height: 15px;
+	width: 85px;
+	background-color: red;
+	transform: rotate(-120deg);
+	margin-top: 20px;
+	margin-left: 108px;
+}
+#fourthbook_logo{
+	height: 12px;
+	width: 10px;
+	background-color: white;
+	transform: rotate(-120deg);
+	margin-top: -10px;
+	margin-left: 148px;
+}	
+
+
+/*beginning of right shelf*/
+#right_shelf{
+	height: 9px;
+	width: 200px;
+	background-color: white;
+	float: right;
+	margin-top: 140px;
+}
+
+#firstR_Book{
+	height: 18px;
+	width: 95px;
+	background-color: pink;
+	transform: rotate(90deg);
+	margin-top: -57px;
+	margin-left: -10px;
+}
+
+#firstBook_logo{
+	height: 14px;
+	width: 12px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -48px;
+	margin-left: 31px;
+}
+
+#firstR_logo{
+	height: 14px;
+	width: 12px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: 4px;
+	margin-left: 31px;
+}
+
+#secondR_Book{
+	height: 15px;
+	width: 60px;
+	background-color: darkgreen;
+	transform: rotate(-70deg);
+	margin-top: 16px;
+	margin-left: 34px;
+}
+#secondBook_logo{
+	height: 11px;
+	width: 7px;
+	background-color: white;
+	transform: rotate(-70deg);
+	margin-top: 5px;
+	margin-left: 54px;
+}
+#secondBookR_logo{
+	height: 11px;
+	width: 7px;
+	background-color: white;
+	transform: rotate(-70deg);
+	margin-top: -20px;
+	margin-left: 58px;
+}
+
+#thirdR_Book{
+	height: 16px;
+	width: 75px;
+	background-color: black;
+	transform: rotate(90deg);
+	margin-top: -29px;
+	margin-left: 53px;
+}
+
+#thirdBookR_logo{
+	height: 11px;
+	width: 3px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: 8px;
+	margin-left: 90px;
+}
+
+#thirdR_logo{
+	height: 12px;
+	width: 2px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -5px;
+	margin-left: 90px;
+}
+
+#fourthR_Book{
+	height: 18px;
+	width: 96px;
+	background-color: pink;
+	transform: rotate(90deg);
+	margin-top: -54px;
+	margin-left: 63px;
+}
+
+#fourthBookR_logo{
+	height: 13px;
+	width: 12px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -50px;
+	margin-left: 105px;
+}
+
+#fourthR_logo{
+	height: 13px;
+	width: 3px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -2px;
+	margin-left: 110px;
+}
+#fifthR_Book{
+	height: 13px;
+	width: 108px;
+	background-color: darkgreen;
+	transform: rotate(90deg);
+	margin-top: 4px;
+	margin-left: 76px;
+}
+
+#fifthBookR_logo{
+	height: 10px;
+	width: 10px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -50px;
+	margin-left: 125px;
+}
+#fifthR_logo{
+	height: 10px;
+	width: 2px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -2px;
+	margin-left: 129px;
+}
+
+#sixthR_Book{
+	height: 16px;
+	width: 75px;
+	background-color: black;
+	transform: rotate(90deg);
+	margin-top: 35px;
+	margin-left: 110px;
+}
+
+#sixthBookR_logo{
+	height: 14px;
+	width: 9px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -40px;
+	margin-left: 142px;
+}
+
+#sixthR_logo{
+	height: 10px;
+	width: 2px;
+	background-color: white;
+	transform: rotate(90deg);
+	margin-top: -2px;
+	margin-left: 146px;
+}
+
+
+/*beginning of bottom table*/
+#bottom_Shelf{
+	height: 9px;
+	width: 100%;
+	background-color: white;
+	float: left;
+	margin-top: 240px;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+
+}
+#tv{
+	height: 110px;
+	width: 210px;
+	border: 10px solid white;
+	margin-top: -172px;
+	margin-left: 40%;
+	border-radius: 15px;
+	border-bottom: 30px solid white;
+	background-color: rgba(43, 162, 47, 0.67);
+
+}
+
+#power{
+	height: 14px;
+	width: 14px;
+	background-color: rgba(43, 162, 47, 0.67);
+	border-radius: 50%;
+	margin-top: 113px;
+	margin-left: 100px;
+
+}
+
+#tvstand{
+	height: 15px;
+	width: 30px;
+	background-color: white;
+	margin-top: 13px;
+	margin-left: 90px;
+}
+
+#tvstand2{
+	height: 7px;
+	width: 200px;
+	background-color: white;
+	border-radius: 4px;
+}
+
+#lampstand{
+	height: 25px;
+	width: 50px;
+	background-color: black;
+	float: right;
+	margin-top: -25px;
+	margin-right: 160px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+
+}
+#lampleg1{
+	height: 7px;
+	width: 130px;
+	float: right;
+	background-color: white;
+	transform: rotate(-65deg);
+	margin-top: -88px;
+	margin-right: 87px;
+
+}
+
+#lamphinge{
+	height: 20px;
+	width: 20px;
+	background-color: white;
+	border-radius: 50px;
+	float: right;
+	margin-right: 112px;
+	margin-top: -160px;
+
+}
+
+#lamphinge2{
+	height: 14px;
+	width: 14px;
+	background-color: black;
+	border-radius: 50px;
+	float: right;
+	margin-right: 3px;
+	margin-top: 2px;
+
+}
+
+#lampleg2{
+	height: 7px;
+	width: 125px;
+	float: right;
+	background-color: white;
+	transform: rotate(-142deg);
+	margin-top: -199px;
+	margin-right: 116px;
+
+}
+#lampholder{
+	height: 20px;
+	width: 23px;
+	background-color: white;
+	float: right;
+	margin-top: -247px;
+	margin-right: 229px;
+	transform: rotate(-145deg);
+}
+#bulbholder{
+	height: 25px;
+	width: 50px;
+	background-color: white;
+	float: right;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	margin-top: -234px;
+	margin-right: 229px;
+	transform: rotate(35deg);
+}
+
+#bulb{
+	height: 20px;
+	width: 20px;
+	background-color: yellow;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	margin-top: 25px;
+	margin-left: 15px;
+	transform: rotate(180deg);
+}
+
+#rays{
+
+	float: right;
+	margin-right: 245px;
+	margin-top: -226px;
+	border: 40px solid rgba(255, 255, 0, 0.2);
+	border-top: 2px solid transparent;
+	border-left: 230px solid transparent;
+	border-bottom: 230px solid rgba(255, 255, 0, 0.2);
+
+	
+}
+
+
+
+
+#earpiece{
+	height: 46px;
+	width: 70px;
+	background-color: transparent;
+	margin-left: 300px;
+	margin-top: -45px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border: 3px solid rgba(105, 81, 27, 0.67);
+	border-bottom: transparent;	
+}
+
+#leftear{
+	height: 10px;
+	width: 28px;
+	background-color: rgba(217, 61, 32, 0.85);
+	float: right;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	margin-top: -26px;
+	margin-right: 52px;
+	transform: rotate(-90deg);
+}
+
+#rightear{
+	height: 10px;
+	width: 28px;
+	background-color: rgba(217, 61, 32, 0.67);
+	float: right;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	margin-top: -26px;
+	margin-right: -10px;
+	transform: rotate(90deg);
+}
+
+footer{
+	margin-top: 40px;
+	font-size: 22px;
+}
